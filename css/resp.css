@@ -1,0 +1,32 @@
+@media only screen and (max-width:800px) {
+  
+  body{
+    
+   
+  }
+  
+  nav{
+    flex-direction: column;
+  }
+  .logo{
+    justify-content: center;
+  }
+  nav ul{
+    margin-right: 66px;
+    justify-content: center;
+   height: 25px;
+    
+  }
+  .search{
+    justify-content: center;
+    margin-bottom: 16px;
+    margin-left: 13px;
+  }
+  .sldr{
+    
+    overflow: scroll;
+    height: 150vw;
+    width: 100vw
+  }
+}
+

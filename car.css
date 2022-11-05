@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/**.sky{
+    animation: carmove linear 20s infinite;
+
+  height: 300vw;
+ width: 1000vw;
+ position: absolute;
+ background-repeat: repeat-x;
+  background-image: url(car.img/car.jpg)
+}**/
+body{
+  overflow: hidden;
+}
+.tree{
+   animation: carmove linear 1s infinite;
+ top:1000px;
+ top: 300px;
+
+  position: absolute;
+ background-repeat:repeat;
+  width: 1200vw;
+  height: 100vw;
+  background-image: url(car.img/day.jpg)
+}
+.road{
+  animation: carmove linear 5s infinite;
+    top: 1000px;
+  position: absolute;
+ background-repeat:repeat-x;
+  width: 1200vw;
+  height: 120vh;
+  background-image: url(car.img/Tr.jpg)
+
+}
+.car{
+  animation: shake linear 1s infinite;
+ top: 1000px;
+   position: absolute;
+ height: 130px;
+ width: 400px;
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(car.img/car2.jpg)
+
+}
+.wheal{
+    animation : whealRotation linear .1s infinite;
+
+  left: 54px;
+  top: 1045px;
+   position: absolute;
+ height: 90px;
+ width: 90px;
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(car.img/wheal1.jpg)
+  
+}
+.wheal2{
+    animation : whealRotation linear .1s infinite;
+
+  left: 290px;
+  top: 1060px;
+   position: absolute;
+ height: 75px;
+ width: 75px;
+ background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(car.img/wheal2.jpg)
+   }
+@keyframes whealRotation {
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes carmove {
+  100%{
+    transform: translatex(-500vh);
+  }
+}
+@keyframes shake {
+  0%{
+    transform: translateY(-0.4vh);
+  }
+  50%{
+    transform: translateY(0.4vh)
+  }
+  100%{
+    transform: translateY(-0.4vh)
+  }
+}
+
+
+
+
+

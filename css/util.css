@@ -1,0 +1,10 @@
+.flex-all-center{
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.btn{
+  border-radius:8px;
+background: dodgerblue;
+  color: black;
+}
